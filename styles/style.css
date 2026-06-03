@@ -1,0 +1,337 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #0B1D26;
+    min-height: 100vh;
+}
+
+/* BACKGROUND */
+
+.absolute {
+    position: absolute;
+}
+
+.background__back-1 {
+    top: -30px;
+    z-index: 1;
+    left: 0;
+}
+
+.background__back-2 {
+    top: 450px;
+    left: 0;
+}
+
+.background__back-3 {
+    top: -400px;
+    left: 0;
+}
+
+.background__back-4 {
+    top: 768px;
+    left: 0;
+}
+
+.background__back-5 {
+    top: 1200px;
+    left: 0;
+}
+
+/* HEADER */
+
+/* NAVIGATION */
+.nav_position-1 {
+    left: 819px;
+}
+
+.nav_position-2 {
+    left: 949px;
+}
+
+.nav_position-3 {
+    left: 1064px;
+}
+
+.heading-img {
+    top: 65px;
+    right: 154px;
+    z-index: 1;
+}
+
+.heading-img:hover {
+    cursor: pointer;
+}
+
+/* HIKING */
+
+.hiking__line {
+    z-index: 1;
+    left: 500px;
+    top: 297px;   
+}
+
+.hiking__arrow {
+    z-index: 1;
+    top: 573px;
+    left: 610px;
+}
+
+/* SIDEBAR */
+
+.sidebar__inst {
+    z-index: 1;
+    top: 460px;
+    left: 80px;
+}
+
+.sidebar__inst:hover {
+    cursor: pointer;
+}
+
+.sidebar__twt {
+    z-index: 1;
+    top: 508px;
+    left: 80px;
+}
+
+.sidebar__twt:hover {
+    cursor: pointer;
+}
+
+.sidebar__text-1 {
+    top: 342px;
+}
+
+.sidebar__text-2 {
+    top: 404px;
+}
+
+.sidebar__text-2:hover {
+    color: #bdbdbd;
+    cursor: pointer;
+}
+
+.sidebar__text-3 {
+    top: 466px;
+}
+
+.sidebar__text-3:hover {
+    color: #bdbdbd;
+    cursor: pointer;
+}
+
+.sidebar__text-4 {
+    top: 528px;
+}
+
+.sidebar__text-4:hover {
+    color: #bdbdbd;
+    cursor: pointer;
+}
+
+.sidebar__slider_active {
+    z-index: 1;
+    top: 326px;
+    right: 80px;
+}
+
+.sidebar__slider_inactive {
+    z-index: 1;
+    top: 326px;
+    right: 80px;
+}
+
+/* MAIN */
+
+/* 1 CARD */
+
+.main__title-1 {
+    top: 1581px;
+    left: 475px;
+}
+
+.main__line-1 {
+    top: 1591px;
+    left: 379px;
+}
+
+.main__subtitle-1 {
+    top: 1630px;
+    left: 379px;
+}
+
+.main__text-1 {
+    top: 1811px;
+    left: 379px;
+}
+
+.main__more-1 {
+    top: 1998px;
+    left: 379px;
+}
+
+.main__arrow-1 {
+    top: 2001px;
+    left: 482px;
+}
+
+.main__image-1 {
+    top: 1440px;
+    right: 229px;
+}
+
+.behind-1 {
+    top: 1478px;
+    left: 229px;
+}
+
+/* 2 CARD */
+
+.main__title-2 {
+    top: 2501px;
+    right: 507px;
+}
+
+.main__line-2 {
+    top: 2511px;
+    right: 789px;
+}
+
+.main__subtitle-2 {
+    top: 2550px;
+    right: 306px;
+}
+
+.main__text-2 {
+    top: 2731px;
+    right: 229px;
+}
+
+.main__more-2 {
+    top: 2918px;
+    right: 774px;
+}
+
+.main__arrow-2 {
+    top: 2921px;
+    right: 734px;
+}
+
+.main__image-2 {
+    top: 2360px;
+    left: 229px;
+}
+
+.behind-2 {
+    top: 2398px;
+    right: 736px;
+}
+
+/* 3 CARD */
+
+.main__title-3 {
+    top: 3421px;
+    left: 475px;
+}
+
+.main__line-3 {
+    top: 3431px;
+    left: 379px;
+}
+
+.main__subtitle-3 {
+    top: 3470px;
+    left: 379px;
+}
+
+.main__text-3 {
+    top: 3651px;
+    left: 379px;
+}
+
+.main__more-3 {
+    top: 3838px;
+    left: 379px;
+}
+
+.main__arrow-3 {
+    top: 3841px;
+    left: 482px;
+}
+
+.main__image-3 {
+    top: 3280px;
+    right: 229px;
+}
+
+.behind-3 {
+    top: 3318px;
+    left: 229px;
+}
+
+/* FOOTER LIST */
+
+.footer__list_element-1 {
+    top: 4200px;
+    right: 602px;
+    width: 193px;
+}
+
+.footer__list_element-content1-1 {
+    top: 4256px;
+    right: 691px;
+    width: 104px;
+}
+
+.footer__list_element-content2-1 {
+    top: 4304px;
+    right: 612px;
+    width: 183px;
+}
+
+.footer__list_element-content3-1 {
+    top: 4352px;
+    right: 696px;
+    width: 99px;
+}
+
+.footer__list_element-content4-1 {
+    top: 4400px;
+    right: 701px;
+    width: 94px;
+}
+
+.footer__list_element-content5-1 {
+    top: 4448px;
+    right: 682px;
+    width: 113px;
+    padding-bottom: 120px;
+}
+
+.footer__list_element-2 {
+    top: 4200px;
+    right: 229px;
+    width: 161px;
+}
+
+.footer__list_element-content1-2 {
+    top: 4256px;
+    right: 309px;
+    width: 81px;
+}
+
+.footer__list_element-content2-2 {
+    top: 4304px;
+    right: 349px;
+    width: 41px;
+}
+
+.footer__list_element-content3-2 {
+    top: 4352px;
+    right: 348px;
+    width: 42px;
+}
